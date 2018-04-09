@@ -1,8 +1,5 @@
-import { sayHello } from "./greet";
+import './patterns/Strategy/Client';
+import './patterns/Observer/Client';
+import './patterns/Decorator/Client';
+import './patterns/Command/Client';
 
-function showHello(divName: string, name: string) {
-    const elt = document.getElementById(divName);
-    elt.innerText = sayHello(name);
-}
-
-showHello("greeting", "TypeScript");
